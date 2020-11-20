@@ -1,0 +1,37 @@
+<div class="col-lg-4">
+  <!-- about -->
+  <div class="widget">
+    {{ with .Site.GetPage "/about" }}
+    <h4 class="widget-title">{{ .Title | markdownify }}</h4>
+    {{ if .Params.Image }}
+    <img src="{{ .Params.Image | absURL }}" alt=""
+      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+    {{ end }}
+    <p>{{ .Summary }}</p>
+    <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
+    <a  target="_blank" href="http://www.africau.edu/images/default/sample.pdf" class="btn btn-outline-primary">View Resume</a>
+    {{ end }}
+  </div>
+  <!-- category -->
+  <div class="widget">
+    <h4 class="widget-title">Skills</h4>
+    {{- if isset .Site.Taxonomies "categories" }}
+    {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+    <ul class="list-unstyled">
+      {{- range $name, $items := .Site.Taxonomies.categories }}
+      <li><a
+          href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- end }}
+  </div>
+  <!-- Tags -->
+
+
+  <!-- social -->
+
+  <!-- advertisement -->
+
+</div>

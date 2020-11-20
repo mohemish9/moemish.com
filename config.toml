@@ -1,43 +1,129 @@
+######################## default configuration ####################
 baseURL = "/"
 languageCode = "en-us"
-title = "Mo Emish"
-theme = "hugo-lodi-theme"
-googleAnalytics = "UA-XXXXXXXX-Y"
+title = "Mo's Profile"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
+disqusShortname = ""
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+
+############################## navigation ###############################
+[menu]
+
+  # main menu
+  [[menu.main]]
+  name = "Home"
+  URL = ""
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+  # footer menu
+  [[menu.footer]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+
+  [[menu.footer]]
+  name = "About"
+  URL = "about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+
+#################### default parameters ################################
 [params]
-    theme_color = "#574CDD"
-    description = "Portfolio of Mo Emish"
-    description_photo = "portfolio.jpg"
-    favicon = "favicon.png"
-    logo = "logo.png"
-    email = "emishmo@gmail.com"
-    facebook = "lex.collado"
-    twitter = "lexiscollado"
-    dribbble = "alexiscollado"
-    linkedin = "https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a"
-    medium = "ahvccollado"
-    github = "github"
-    googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "Mo Emish's Profile"
+author = "Mo Emish"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+mobile = "+1 909 285 5914"
+email = "emishmo@gmail.com"
+location = "Los Angeles, California"
+# copyright
+copyright = ""
 
-[params.nav]
-    enable = true
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "spinner-icon-gif-10.jpg.gif" # use .png , .svg or .gif format
 
-[params.hero]
-    enable = true
-    avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Alexis, a UX Designer and Evangelist from Manila."
-    hero_right = ["**Currently doing consultancy work at UX Society. Previously doing UX and product at Agoda in Bangkok, Thailand as an international intern.**", "I founded [User Experience Society](https://www.facebook.com/UXSoc/), the first student UX organization in the Philippines. For two years, we've had 20+ events with 30+ speakers for over 300 members and 500+ attendees. We've expanded to [California](https://www.facebook.com/profile.php?id=245708449193012) this year.", "I do a bit of writing as well. [Here's an article with a total of 21,000+ views to InVision & Medium](http://blog.invisionapp.com/ux-internship-wisdom/) talking about 50 things I learned spending 3 years as a UX intern.", "I help cultivate the design community in Manila too. I'm the youngest core member of [UX Philippines](https://www.facebook.com/groups/uxphilippines/) and I moderated a panel with some cool people for the [UXPH 2017 Conference](https://www.uxphilippines.com).", "I'm finishing my Bachelor's degree in Management Information Systems at the Ateneo de Manila University, expecting to graduate in 2018."]
-    resume = "ResumeCollado.pdf"
+  # search
+  [params.search]
+  enable = true
 
-[params.process]
-    enable = true
-    title = "My Process"
-    subtitle = "Full Process Design"
+############################ news letter ########################
+[params.newsletter]
+enable = false
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
 
-[params.case_studies]
-    enable = true
-    title = "Case Studies"
-    subtitle = "Selected Works"
 
-[params.footer]
-    enable = true
+# cookies
+[params.cookies]
+enable = false
+#expire_days = 2
+
+
+############################# social site ########################
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/mohamedemish/"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/mohemish9"
+
+
