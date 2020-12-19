@@ -13,6 +13,6 @@ description: "this is meta description"
 type : "about"
 ---
 
-Upcoming Computer Science graduate seeking full-time engineering or analytical positions. 
+Hi! My name is Mo Emish, and I am an upcoming Computer Science graduate seeking full-time engineering and analytical positions. 
 
-Skilled with various Data Science, ML and Big Data tools and equipped with PM-oriented teamwork skills. I designed and implemented multiple data ETL tools and scrips, trained ML models, collected and analyzed BI and UI datasets and architected different solutions on AWS. 
+I created with website to highlight my skills in various Data Science, ML and Big Data tools as well as my experiance with PM-oriented teamwork skills. I designed and implemented multiple data ETL tools and scrips, trained ML models, collected and analyzed BI and UI datasets and architected different solutions on AWS. 

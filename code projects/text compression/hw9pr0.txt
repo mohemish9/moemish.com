@@ -1,0 +1,7 @@
+Prompt:
+how willing you, personally, would be to live in that envisioned scenario
+how willing you feel society as a whole would be to experience that envisioned scenario
+Even if self-driving cars turn out to be possible and feasible, how do you imagine they would influence our habits: minimally or completely -- or something in between?
+
+Response:
+I believe automation is a promising filed that can have substantially positive impacts on the society. In the given scenario, questioning automation of cars is clearly leading us to ask questions concerning the safety and financial stability of the model. Personally speaking, I believe these same questions can be applied to the use of cars in the first place. For example, using horses can be safer and cheaper, but it is not efficient just like manually driven cars. On the scale of society, I imagine drivers will be the most concerned group about the future of their jobs, and this will slow down the process of conversation to automated cars. Universal Basic Income is the perfect solution to increase the yield of conversation into automated cars and increase our ability to benefit from them. by collecting higher taxes and compensate these drivers for losing their jobs, the whole society can take advantage of the role machine learning can play to reduce accidents, prevent congestion and increase the labor supply for other industries. 

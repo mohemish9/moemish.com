@@ -1,7 +1,7 @@
 enable : true
 gallery:
-  - image : "images/gallery/1.jpg"
-  - image : "images/gallery/2.jpg"
+  - image : "images/gallery/swift_app.jpg"
+  - image : "images/gallery/etl_pipeline.jpg"
   - image : "images/gallery/3.jpg"
   - image : "images/gallery/4.jpg"
   - image : "images/gallery/5.jpg"

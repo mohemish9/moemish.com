@@ -1,0 +1,44 @@
+---
+NOTE: >
+    Lines in this file marked "Input: " are exempt from CS 70's 80-column
+    maximum-line-length rule.
+Format: >
+    The idea is that we show input, expected output, and the rationale
+    for the test.
+Bonus: >
+    Although you don't need to preserve the formatting, this file is
+    actually in a structured data format that could allow a program to
+    read these  tests in and do something with them, such as run the tests
+    automatically, rather than by hand.  This structured format is known
+    as YAML and documented at http://yaml.org.  There are libraries to
+    read YAML into all your favorite languages, so you could actually write
+    your own python-based tester. Prof. O'Neill wrote one in Perl.  We're
+    not expecting you to do that though.
+---
+- Input:  civic
+  Output: Yay, that's a palindrome!
+  Notes:  This is a simple plaindrome
+
+- Input:  banana
+  Output: No, that's not a palindrome.
+  Notes:  This is a simple nonplaindrome
+
+- Input:  sit on a potato pan, otis
+  Output: Yay, that's a palindrome!
+  Notes:  This example includes spaces and punctuation.
+
+- Input:  pAnDadNaP
+  Output: Yay, that's a palindrome!
+  Notes:  This example includes comparison of lowercase and uppercase letter
+
+- Input:  2day monk534eyy23ek nomy3ad
+  Output: Yay, that's a palindrome!
+  Notes: This example tests if the function can ignore numbers
+
+- Input: hi, let's go? ogstel, Ih! 
+  Output: Yay, that's a palindrome!
+  Notes: This example tests if the function can ignore special chars
+
+- Input: Hi, my name is Alejandro! 
+  Output: Yay, that's a palindrome!
+  Notes: this is a simple nonpalindrome

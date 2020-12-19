@@ -1,0 +1,14 @@
+package com.gradescope.spampede;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class delet {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}
