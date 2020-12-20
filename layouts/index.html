@@ -9,43 +9,66 @@
 <!-- blog post -->
 <section class="pb-0" style="padding-top: 40px;">
   <!--style="width:85%; margin-left: auto; margin-right: auto" -->
-  <div class="container">
+  <div class="" style="width:70%;margin-left: auto;margin-right:auto">
     <div class="row">
+
       {{ partial "sidebar.html" . }}
-      <div class="col-lg-8 mb-5 mb-lg-0 ">
+
+      <div class="col-lg-8 mb-5 mb-lg-0 pl-5">
         <div class="row">
+          <h3>Skills</h3>
+        </div>
+        <div class="row">
+          {{- if isset .Site.Taxonomies "categories" }}
+          {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+          
+         {{- range $name, $items := .Site.Taxonomies.categories }}
+          <div class="m-1 btn btn-outline-primary"> <a 
+          href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}" style="color: black"> {{ $name | title | humanize }}</a>
+          </div>
+          {{- end }}
+          {{- end }}
+          {{- end }}
+        </div>
+        <div class="row pt-3">
           <h3>Employment Experiance</h3>
         </div>
         <div class="row">
-
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" style="text-align: center">
-            <img src="images/Apple-logo-black-and-white.png">
-            <h5>Apple</h5>
-            <p>API Product Managment Intern</p>
-            <p>Feb-Aug 2020</p>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-3" style="text-align: center">
+            <div class=" p-3" style="width: 71%; margin-left: auto; margin-right: auto;">
+              <img src="images/Apple-logo-black-and-white.png" style="border-radius:50%">
+            </div>
+            <h5 class="pt-2">Apple</h5>
+            <p><span style="font-weight:600">API Product Managment Intern</span><br><i>Feb-Aug 2020 </i></p>
 
           </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" style="text-align: center">
-            <img  src="images/CMC_Sig_Ver_vFA.jpg" >
-            <h6>Claremont McKenna College</h6>
-            <p>Math & CS Tutor</p>
-            <p>Feb 2018-</p>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-3" style="text-align: center ">
+           <div class="p-3" style="width: 80%; margin-left: auto; margin-right: auto;">
+              <img src="images/CMC_Sig_Ver_vFA.jpg" style="border-radius:50%">
+            </div>
+            <h6 class="pt-2">Claremont McKenna College</h6>
+            <p><span style="font-weight:600">Math & Computer Science Tutor</span><br><i>Feb 2018- </i></p>
+            
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" style="text-align: center">
-            <img src="images/harvey_mudd_college.jpg" >
-            <h6>Harvey Mudd College</h6>
-            <p>Neural Networks Tutor</p>
-            <p>Jan 2020-</p>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-3" style="text-align: center">
+             <div class="p-4" style="width: 80%; margin-left: auto; margin-right: auto;">
+              <img src="images/harvey_mudd_college.jpg" style="">
+            </div>
+            <h6 class="pt-2">Harvey Mudd College</h6>
+            <p><span style="font-weight:600">Neural Networks Tutor</span><br><i>Dec 2020-</i></p>
+  
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" style="text-align: center">
-            <img src="images/Claremont-Graduate-University-Logo.jpg" >
-            <h6>Claremont Graduate University</h6>
-            <p>API Product Managment Intern</p>
-            <p>Feb-DEC 2019</p>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-3" style="text-align: center">
+          <div class=" p-4" style="width: 80%; margin-left: auto; margin-right: auto;">
+              <img src="images/Claremont-Graduate-University-Logo.jpg" style="">
+            </div>
+            <h6 class="pt-2">Claremont Graduate University</h6>
+            <p><span style="font-weight:600">Data Analyst Fellow</span><br><i>Feb-Dec 2019</i></p>
         </div>
         </div>
-        <div class="row">
-            <h3>Projects</h3>
+
+        <div class="row pt-3">
+            <h3>Projects</h3> <p style="">  - Open Article to read more about the project</p> 
           </div>
         <div class="row">
 
@@ -56,12 +79,13 @@
               {{ if .Params.Image }}
               <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
               {{ end }}
+              <a href="{{ .Permalink }}" class="h5 ">{{ .Title | markdownify }}</a>
               <div class="card-body px-0">
                 {{ range .Params.Categories }}
                 <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
                   class="text-primary">{{ . | title | humanize }}</a>
                 {{ end }}
-                <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
+                
                 <div class="mb-3 post-meta">
 
                 </div>

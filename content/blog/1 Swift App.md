@@ -11,12 +11,11 @@ description: "this is meta description"
 
 # taxonomies
 categories:
-  - "Swift, "
-  - "Objective-C, "
-  - "Xcode, "
-  - "CocaPods, "
   - "Software Engineering, "
-  - "Product Managment"
+  - "Product Managment, "
+  - "Swift, "
+  - "Objective-C"
+
 
 
 
