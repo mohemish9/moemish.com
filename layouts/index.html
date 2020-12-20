@@ -16,7 +16,7 @@
 
       <div class="col-lg-8 mb-5 mb-lg-0 pl-5">
         <div class="row">
-          <h3>Skills</h3>
+          <h3 id="Skills">Skills</h3>
         </div>
         <div class="row">
           {{- if isset .Site.Taxonomies "categories" }}
@@ -31,7 +31,7 @@
           {{- end }}
         </div>
         <div class="row pt-3">
-          <h3>Employment Experiance</h3>
+          <h3 id="EXP" >Employment Experiance</h3>
         </div>
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-3" style="text-align: center">
@@ -68,7 +68,7 @@
         </div>
 
         <div class="row pt-3">
-            <h3>Projects</h3> <p style="">  - Open Article to read more about the project</p> 
+            <h3 id="Projects" >Projects</h3> <p style="">  - Open Article to read more about the project</p> 
           </div>
         <div class="row">
 
@@ -100,6 +100,7 @@
 
     </div>
   </div>
+  {{ partial "browser.html" . }}
 </section>
 <!-- /blog post -->
 
