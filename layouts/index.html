@@ -68,13 +68,13 @@
         </div>
 
         <div class="row pt-3">
-            <h3 id="Projects" >Projects</h3> <p style="">  - Open Article to read more about the project</p> 
+            <h3 id="Projects" >Projects </h3> <p class="pt-2"> - Open Article to read more about the project</p> 
           </div>
         <div class="row">
 
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $paginator.Pages }}
-          <div class="col-md-6 mb-4">
+          <div class="col-md-4 mb-4">
             <article class="card">
               {{ if .Params.Image }}
               <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">

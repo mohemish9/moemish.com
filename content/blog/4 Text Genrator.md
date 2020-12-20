@@ -1,22 +1,20 @@
 ---
-title: "AWS-hosted Extact, Transform, Load Data Pipeline"
+title: "Markov text generator in AWS-hosted Streamlit App"
 date: 2020-09-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/post/etl_pipeline.jpg"
+image: "images/post/text_gen.jpg"
 
 # meta description
 description: "this is meta description"
 
 # taxonomies
 categories:
-  - "Data Engineering, "
-  - "ETL, "
-  - "SQL, "
+  - "Amazon Web Services, "
   - "Python, "
-  - "Spatiotemporal Data, "
-  - "Amazon Web Services"
+  - "Steamlit, "
+  - "Markov Text Generator"
 
 # post type
 #type: "featured"
