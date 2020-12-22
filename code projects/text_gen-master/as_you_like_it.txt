@@ -1,6 +1,0 @@
-The emergence of Cloud Computing has benefitted the software industries big time. Majority of companies have shifted gears to move existing projects on Cloud as well as build new ones on it.
-Our previous blog introduced you to Firebase ,an app development platform, that provides multiple services to build a robust web or mobile app. Today let us learn about a powerful Cloud Computing platform called the AWS or Amazon Web Services Cloud.
-
--AWS, a subordinate of Amazon, is a platform that offers comprehensive, on-demand, secure cloud services to individuals and organizations to build, enhance and promote business applications.
--Amazon Web Services cloud provides an extensive package of very useful services which, when collaborate and work with each other, produce highly dynamic applications.
--Basically, AWS enables to create applications on the cloud, store data on a database cloud, distribute and deploy apps on the cloud server, all by means of its wide range of products.
