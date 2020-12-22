@@ -9,8 +9,10 @@ Use Hugo template to publish your website in minutes.
 ##### Download hugo template
 First, start a new hugo project (replace site name with the name of the folder you want to create on your computer)
 hugo new site SITENAME
+
 Now you have an empty project. You can add any of the hugo themes (templates) from https://themes.gohugo.io by running the following command 
-git submodule add LINK_TO_GIT_REPO.git themes/THEME_NAME
+```git submodule add LINK_TO_GIT_REPO.git themes/THEME_NAME```
+
 Afterwards, copy and paste all the contents in the folder themes/THEME_NAME to the root directory of the hugo project
 
 ##### Edit hugo
