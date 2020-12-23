@@ -49,10 +49,10 @@ disqusShortname = ""
   URL = ""
   weight = 1
 
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 2
+  #[[menu.main]]
+  #name = "About"
+  #URL = "about"
+  #weight = 2
 
   [[menu.main]]
   name = "Contact"
@@ -65,10 +65,10 @@ disqusShortname = ""
   URL = "/"
   weight = 1
 
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 1
+  #[[menu.footer]]
+  #name = "About"
+  #URL = "about"
+  #weight = 1
 
   [[menu.footer]]
   name = "Contact"
@@ -84,7 +84,7 @@ home = "Home"
 description = "Mo Emish's Profile"
 author = "Mo Emish"
 # Google Analitycs
-googleAnalitycsID = "G-E7DP9Y51TK"
+googleAnalitycsID = "UA-183660312-1"
 # Contact Information
 mobile = "+1 909 285 5914"
 email = "emishmo@gmail.com"
@@ -117,12 +117,12 @@ enable = false
 ############################# social site ########################
 
 [[params.social]]
-title = "linkedin"
+title = "Linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/in/mohamedemish/"
 
 [[params.social]]
-title = "github"
+title = "Github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/mohemish9"
 

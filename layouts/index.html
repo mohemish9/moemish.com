@@ -67,8 +67,10 @@
         </div>
         </div>
 
-        <div class="row pt-3">
-            <h3 id="Projects" >Projects </h3> <p class="pt-2"> - Open Article to read more about the project</p> 
+        <div class="row pt-3"> 
+            <!--<h3 id="Projects" >Projects </h3> <p class="pt-2"> - Open Article to read more about the project</p> -->
+            <h3 id="Projects" >Projects </h3> <p class="pt-2"> - Check <a target="_blank" href="https://github.com/mohemish9">Github </a> for more detials</p>
+
           </div>
         <div class="row">
 
@@ -79,7 +81,8 @@
               {{ if .Params.Image }}
               <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
               {{ end }}
-              <a href="{{ .Permalink }}" class="h5 ">{{ .Title | markdownify }}</a>
+              <!--<a href="{{ .Permalink }}" class="h5 ">{{ .Title | markdownify }}</a>-->
+              <a class="h5 ">{{ .Title | markdownify }}</a>
               <div class="card-body px-0">
                 {{ range .Params.Categories }}
                 <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
@@ -90,7 +93,7 @@
 
                 </div>
                 <p class="card-text">{{ .Summary }}</p>
-                <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
+                <!--<a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>-->
               </div>
             </article>
           </div>
