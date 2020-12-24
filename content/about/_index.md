@@ -15,4 +15,4 @@ type : "about"
 
 Hi! My name is Mo Emish, and I am an upcoming Computer Science graduate seeking full-time engineering and analytical positions. 
 
-I created with website to highlight my skills in various Data Science, ML and Big Data tools as well as my experiance with PM-oriented teamwork skills. I designed and implemented multiple data ETL tools and scrips, trained ML models, collected and analyzed BI and UI datasets and architected different solutions on AWS. 
+I created this website to highlight my skills in various Data Science, ML and Big Data tools as well as my experiance with PM-oriented teamwork skills. I designed and implemented multiple data ETL tools and scripts, trained ML models, collected and analyzed BI and UI datasets and architected different solutions on AWS. 
