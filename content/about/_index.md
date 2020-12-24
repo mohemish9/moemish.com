@@ -13,6 +13,7 @@ description: "this is meta description"
 type : "about"
 ---
 
-Hi! My name is Mo Emish, and I am an upcoming Computer Science graduate seeking full-time engineering and analytical positions. 
+Hi! My name is Mo Emish, a Software Engineer seeking full-time position. I am skilled various Data Engineering and Data Science tools and equipped with PM-oriented teamwork skills.
 
-I created this website to highlight my skills in various Data Science, ML and Big Data tools as well as my experiance with PM-oriented teamwork skills. I designed and implemented multiple data ETL tools and scripts, trained ML models, collected and analyzed BI and UI datasets and architected different solutions on AWS. 
+During my last two years, I performed serval data ELT processes and worked in data science projects with multiple stakeholders. My motivation came from a strong aptitude for translating complex processes into smaller steps and automating them using robust implementation. I also trained ML models, collected and analyzed BI and UI insights and architected different solutions on AWS. 
+
