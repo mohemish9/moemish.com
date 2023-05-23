@@ -13,7 +13,4 @@ description: "this is meta description"
 type : "about"
 ---
 
-Hi! My name is Mo Emish, a Software Engineer seeking full-time position. I am skilled various Data Engineering and Data Science tools and equipped with PM-oriented teamwork skills.
-
-During my last two years, I performed serval data ELT processes and worked in data science projects with multiple stakeholders. My motivation came from a strong aptitude for translating complex processes into smaller steps and automating them using robust implementation. I also trained ML models, collected and analyzed BI and UI insights and architected different solutions on AWS. 
-
+Mohamed earned a B.A in Computer Science from Claremont McKenna College in California in 2021. He is currently a first-year student in a PhD program in Informatics at the University of California Irvine . Before enrolling in the PhD, he worked for one year as a research assistant at the University of California's Institute of Predication Technology (UCIPT) on a healthcare monitoring and outreach project.
